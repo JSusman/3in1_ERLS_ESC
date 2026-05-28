@@ -1,0 +1,2561 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "002f023a-2908-495d-a2c5-c67844d4c9f3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "lcsc_imported:AT32F421G8U7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AT32F421G8U7"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C2765098_QFN-28_L4_0-W4_0-P0_40-TL-EP2_4"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_ARTERY-AT32F421G8U7_C2765098.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "AT32F421G8U7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2765098"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ARTERY(雅特力)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AT32F421G8U7_1_1"
+				(rectangle
+					(start -15.24 16.51)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -13.97 13.97)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "PF0/OSC_IN"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "PF1/OSC_OUT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "NRST"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -17.78 90)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -17.78 90)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -17.78 90)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -17.78 90)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -17.78 90)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -17.78 90)
+					(length 2.54)
+					(name "PB0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "PB1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "PA8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "PA9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "PA10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "PA13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 19.05 270)
+					(length 2.54)
+					(name "PA14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 19.05 270)
+					(length 2.54)
+					(name "PA15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 19.05 270)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 19.05 270)
+					(length 2.54)
+					(name "PB4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 19.05 270)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 19.05 270)
+					(length 2.54)
+					(name "PB6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 19.05 270)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 11.43 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:NSG2065Q_C53463328"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NSG2065Q_C53463328"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C53463328_QFN-24_L4_0-W4_0-P0_50-TL-EP2_8"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "None"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NSG2065Q_C53463328"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C53463328"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "NCE(无锡新洁能)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NSG2065Q_C53463328_1_1"
+				(rectangle
+					(start -8.89 17.78)
+					(end 8.89 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -7.62 13.97)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 12.7 0)
+					(length 2.54)
+					(name "LIN1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 10.16 0)
+					(length 2.54)
+					(name "LIN2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "LIN3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "LO3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "LO2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -12.7 0)
+					(length 2.54)
+					(name "LO1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -15.24 0)
+					(length 2.54)
+					(name "VS3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "HO3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -12.7 180)
+					(length 2.54)
+					(name "VB3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "VS2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "HO2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "VB2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "VS1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "HO1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "VB1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "HIN1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 10.16 180)
+					(length 2.54)
+					(name "HIN2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 12.7 180)
+					(length 2.54)
+					(name "HIN3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 15.24 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:SP40N03GNJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SP40N03GNJ"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C22466709_POWERPAK-1212-8_L3_0-W3_0-P0_65-LS3_3-BL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406171505_Siliup-SP40N03GNJ_C22466709.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SP40N03GNJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22466709"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Siliup(矽普)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SP40N03GNJ_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SP40N03GNJ")
+		(at 62.23 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4287f616-c60c-4161-8ffe-5b3adaefae62")
+		(property "Reference" "Q1"
+			(at 62.23 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP40N03GNJ"
+			(at 62.23 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22466709_POWERPAK-1212-8_L3_0-W3_0-P0_65-LS3_3-BL"
+			(at 62.23 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406171505_Siliup-SP40N03GNJ_C22466709.pdf"
+			(at 59.944 149.733 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SP40N03GNJ"
+			(at 62.23 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22466709"
+			(at 62.23 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Siliup(矽普)"
+			(at 62.23 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e307f00e-31b6-42cf-8f23-02c99c3947f6")
+		)
+		(pin "3"
+			(uuid "799597e2-3c34-45ba-b2bd-7e4ad4d39789")
+		)
+		(pin "6"
+			(uuid "a9c41936-6780-4b14-8ed4-c76a6bcdc032")
+		)
+		(pin "7"
+			(uuid "18eb198a-ff69-4003-b741-35c9efec1936")
+		)
+		(pin "1"
+			(uuid "e52b13c5-5c22-4ad7-9cba-cbcdf8d89ff3")
+		)
+		(pin "2"
+			(uuid "48e90d2a-47b5-4a66-b4f6-44b7d0ce6903")
+		)
+		(pin "8"
+			(uuid "e525c544-3eaf-488f-b381-1519a61e1d5a")
+		)
+		(pin "5"
+			(uuid "c302eb21-c4c9-4b7a-bfdb-9495a7ec3c90")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SP40N03GNJ")
+		(at 62.23 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "487a5da5-8c73-44b8-8f45-696f75e84cf9")
+		(property "Reference" "Q7"
+			(at 62.23 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP40N03GNJ"
+			(at 62.23 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22466709_POWERPAK-1212-8_L3_0-W3_0-P0_65-LS3_3-BL"
+			(at 62.23 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406171505_Siliup-SP40N03GNJ_C22466709.pdf"
+			(at 59.944 181.483 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SP40N03GNJ"
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22466709"
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Siliup(矽普)"
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e307f00e-31b6-42cf-8f23-02c99c3947f6")
+		)
+		(pin "3"
+			(uuid "799597e2-3c34-45ba-b2bd-7e4ad4d39789")
+		)
+		(pin "6"
+			(uuid "a9c41936-6780-4b14-8ed4-c76a6bcdc032")
+		)
+		(pin "7"
+			(uuid "18eb198a-ff69-4003-b741-35c9efec1936")
+		)
+		(pin "1"
+			(uuid "e52b13c5-5c22-4ad7-9cba-cbcdf8d89ff3")
+		)
+		(pin "2"
+			(uuid "48e90d2a-47b5-4a66-b4f6-44b7d0ce6903")
+		)
+		(pin "8"
+			(uuid "e525c544-3eaf-488f-b381-1519a61e1d5a")
+		)
+		(pin "5"
+			(uuid "c302eb21-c4c9-4b7a-bfdb-9495a7ec3c90")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:AT32F421G8U7")
+		(at 87.63 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5436568e-ff7a-450c-9ad4-0cf3af994e4b")
+		(property "Reference" "U1"
+			(at 97.2076 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AT32F421G8U7"
+			(at 97.2076 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2765098_QFN-28_L4_0-W4_0-P0_40-TL-EP2_4"
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_ARTERY-AT32F421G8U7_C2765098.pdf"
+			(at 85.344 64.643 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AT32F421G8U7"
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2765098"
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ARTERY(雅特力)"
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "13806a13-8302-4241-8bfa-7379afd99a17")
+		)
+		(pin "18"
+			(uuid "6958d7cb-ee39-438f-bf2b-6432b7abc430")
+		)
+		(pin "17"
+			(uuid "5610dc13-30d7-4437-9bdd-661d8fb56c87")
+		)
+		(pin "26"
+			(uuid "4c29f6ae-2fc6-462f-83fa-b198d950a21d")
+		)
+		(pin "19"
+			(uuid "f1a7621e-3193-4038-ac69-11ef72642efa")
+		)
+		(pin "12"
+			(uuid "26c8b1a5-deb9-4dd0-a932-9bd3c310df14")
+		)
+		(pin "29"
+			(uuid "74814a67-9dea-459b-b2c0-ae14f9a7f0ff")
+		)
+		(pin "21"
+			(uuid "a5fb1c02-c24c-43cd-abb1-814c211a54ad")
+		)
+		(pin "22"
+			(uuid "02759b5e-7058-4a09-aec2-ea1ca606f91f")
+		)
+		(pin "23"
+			(uuid "15b7888f-5d95-45d5-964b-8eca100b69ca")
+		)
+		(pin "25"
+			(uuid "db5415d5-708a-4e4a-ac2c-95e50aa889bf")
+		)
+		(pin "28"
+			(uuid "46333a81-eeeb-4f45-9a21-5e65fdf378dc")
+		)
+		(pin "13"
+			(uuid "daa58705-a747-4c7a-ad14-872c4bfb7624")
+		)
+		(pin "14"
+			(uuid "1e096d1e-d613-4eef-b2f0-de5d6aa00f94")
+		)
+		(pin "15"
+			(uuid "5b8b495b-04fb-43aa-9e24-d354aedbb08e")
+		)
+		(pin "24"
+			(uuid "4d4c542d-94ab-49de-954e-056cf28247cb")
+		)
+		(pin "20"
+			(uuid "ccd5d75e-76d8-4996-9c60-f5e8068b511c")
+		)
+		(pin "27"
+			(uuid "88a363f4-fa99-4449-a99a-f968abcaf858")
+		)
+		(pin "1"
+			(uuid "55c5efea-23b8-45b3-b5cf-5621f1914611")
+		)
+		(pin "3"
+			(uuid "d6c4d2c8-65fa-47a3-8ea5-99b0ccb545bb")
+		)
+		(pin "2"
+			(uuid "f7271696-a9a5-40e9-9be2-3c182d1e2a1b")
+		)
+		(pin "6"
+			(uuid "899c5bd3-810c-4ea4-aabd-46430e1b4fe4")
+		)
+		(pin "7"
+			(uuid "396ad212-9eec-42a6-8154-23ad8ea74683")
+		)
+		(pin "8"
+			(uuid "77523572-a58f-4bef-be32-23b46db7be12")
+		)
+		(pin "5"
+			(uuid "034c28bd-103d-4a46-95cc-c79ad400e7ca")
+		)
+		(pin "9"
+			(uuid "0828c4ba-69df-40e5-8ca1-f708a58411b8")
+		)
+		(pin "10"
+			(uuid "37fc6d4c-2996-472d-b2ac-362f4a54909d")
+		)
+		(pin "4"
+			(uuid "1e7c7dbf-9d5a-4e8b-9555-6ab9be265a96")
+		)
+		(pin "11"
+			(uuid "e4837c5c-c051-4e44-b0e2-8537a32acad9")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SP40N03GNJ")
+		(at 96.52 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "803940c6-fc74-4f94-9463-5c23e8082b2a")
+		(property "Reference" "Q9"
+			(at 96.52 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP40N03GNJ"
+			(at 96.52 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22466709_POWERPAK-1212-8_L3_0-W3_0-P0_65-LS3_3-BL"
+			(at 96.52 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406171505_Siliup-SP40N03GNJ_C22466709.pdf"
+			(at 94.234 181.483 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SP40N03GNJ"
+			(at 96.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22466709"
+			(at 96.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Siliup(矽普)"
+			(at 96.52 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e307f00e-31b6-42cf-8f23-02c99c3947f6")
+		)
+		(pin "3"
+			(uuid "799597e2-3c34-45ba-b2bd-7e4ad4d39789")
+		)
+		(pin "6"
+			(uuid "a9c41936-6780-4b14-8ed4-c76a6bcdc032")
+		)
+		(pin "7"
+			(uuid "18eb198a-ff69-4003-b741-35c9efec1936")
+		)
+		(pin "1"
+			(uuid "e52b13c5-5c22-4ad7-9cba-cbcdf8d89ff3")
+		)
+		(pin "2"
+			(uuid "48e90d2a-47b5-4a66-b4f6-44b7d0ce6903")
+		)
+		(pin "8"
+			(uuid "e525c544-3eaf-488f-b381-1519a61e1d5a")
+		)
+		(pin "5"
+			(uuid "c302eb21-c4c9-4b7a-bfdb-9495a7ec3c90")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:NSG2065Q_C53463328")
+		(at 195.58 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca4fb78f-8217-4f0d-9599-4ae7670a5f02")
+		(property "Reference" "U3"
+			(at 195.58 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NSG2065Q_C53463328"
+			(at 195.58 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C53463328_QFN-24_L4_0-W4_0-P0_50-TL-EP2_8"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "None"
+			(at 193.294 65.913 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NSG2065Q_C53463328"
+			(at 195.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C53463328"
+			(at 195.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NCE(无锡新洁能)"
+			(at 195.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "18291453-e04f-42b1-a9be-5d2ba55936db")
+		)
+		(pin "25"
+			(uuid "958ec2fd-2e25-416b-b08d-8e16fdb8ef8e")
+		)
+		(pin "11"
+			(uuid "943bae1e-0816-42ef-9767-4bc095d9517e")
+		)
+		(pin "23"
+			(uuid "0ec1274d-2a88-4c5f-8311-9e243f6a2ce5")
+		)
+		(pin "8"
+			(uuid "0375b57f-6a94-4f89-81b6-418ec40c7a15")
+		)
+		(pin "1"
+			(uuid "1be7177e-a654-442d-b729-0cdb8eb1c53e")
+		)
+		(pin "16"
+			(uuid "05853415-48b0-48b5-bc8e-8ab073fa9be4")
+		)
+		(pin "17"
+			(uuid "400f333b-e74f-4da9-942b-cc1b229a5aac")
+		)
+		(pin "10"
+			(uuid "017e65b1-1fc0-4b6d-bac3-dacd32e9d142")
+		)
+		(pin "12"
+			(uuid "226a8413-12a2-472e-95ab-8457039a748a")
+		)
+		(pin "13"
+			(uuid "cee9a4e6-02e5-4590-86c6-6206a6c549f6")
+		)
+		(pin "5"
+			(uuid "1a3f3935-fe22-4979-a808-d1367edc83c6")
+		)
+		(pin "15"
+			(uuid "9f98696b-a760-404b-97a9-3ff2a022d94c")
+		)
+		(pin "4"
+			(uuid "29192ec3-a853-4b8b-883d-5d7560e4dcad")
+		)
+		(pin "21"
+			(uuid "583cc480-69e9-431c-8130-087a8d6d2cf2")
+		)
+		(pin "6"
+			(uuid "76b30373-4226-4c17-93f1-6e284f208b21")
+		)
+		(pin "14"
+			(uuid "b416c0cf-4138-4fcd-9b33-3e420efbd8bb")
+		)
+		(pin "20"
+			(uuid "2dd74760-5c48-4fff-9458-47db6800450f")
+		)
+		(pin "24"
+			(uuid "ad0cf3b0-96db-4785-8d06-ede881b1a88d")
+		)
+		(pin "22"
+			(uuid "40e98077-7296-4be7-af43-cea10623e5b3")
+		)
+		(pin "19"
+			(uuid "983b6839-750d-43e2-b8f6-87f1c0cc65a5")
+		)
+		(pin "3"
+			(uuid "d6f7f36d-b1b3-4bca-8cbc-c973eb989289")
+		)
+		(pin "2"
+			(uuid "0cee9052-a413-4793-8fc6-f72f63fe999a")
+		)
+		(pin "9"
+			(uuid "e77cf034-6fe9-43fd-aa7f-505480efaa9a")
+		)
+		(pin "18"
+			(uuid "4c4a2d38-3c59-4996-b628-2c70d2784e24")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SP40N03GNJ")
+		(at 96.52 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d53a0392-01c4-419e-8e4b-56e4f6060e45")
+		(property "Reference" "Q3"
+			(at 96.52 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP40N03GNJ"
+			(at 96.52 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22466709_POWERPAK-1212-8_L3_0-W3_0-P0_65-LS3_3-BL"
+			(at 96.52 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406171505_Siliup-SP40N03GNJ_C22466709.pdf"
+			(at 94.234 149.733 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SP40N03GNJ"
+			(at 96.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22466709"
+			(at 96.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Siliup(矽普)"
+			(at 96.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e307f00e-31b6-42cf-8f23-02c99c3947f6")
+		)
+		(pin "3"
+			(uuid "799597e2-3c34-45ba-b2bd-7e4ad4d39789")
+		)
+		(pin "6"
+			(uuid "a9c41936-6780-4b14-8ed4-c76a6bcdc032")
+		)
+		(pin "7"
+			(uuid "18eb198a-ff69-4003-b741-35c9efec1936")
+		)
+		(pin "1"
+			(uuid "e52b13c5-5c22-4ad7-9cba-cbcdf8d89ff3")
+		)
+		(pin "2"
+			(uuid "48e90d2a-47b5-4a66-b4f6-44b7d0ce6903")
+		)
+		(pin "8"
+			(uuid "e525c544-3eaf-488f-b381-1519a61e1d5a")
+		)
+		(pin "5"
+			(uuid "c302eb21-c4c9-4b7a-bfdb-9495a7ec3c90")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SP40N03GNJ")
+		(at 130.81 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8f45f1b-47a3-46df-9987-5ff606e07901")
+		(property "Reference" "Q5"
+			(at 130.81 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP40N03GNJ"
+			(at 130.81 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22466709_POWERPAK-1212-8_L3_0-W3_0-P0_65-LS3_3-BL"
+			(at 130.81 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406171505_Siliup-SP40N03GNJ_C22466709.pdf"
+			(at 128.524 149.733 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SP40N03GNJ"
+			(at 130.81 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22466709"
+			(at 130.81 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Siliup(矽普)"
+			(at 130.81 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e307f00e-31b6-42cf-8f23-02c99c3947f6")
+		)
+		(pin "3"
+			(uuid "799597e2-3c34-45ba-b2bd-7e4ad4d39789")
+		)
+		(pin "6"
+			(uuid "a9c41936-6780-4b14-8ed4-c76a6bcdc032")
+		)
+		(pin "7"
+			(uuid "18eb198a-ff69-4003-b741-35c9efec1936")
+		)
+		(pin "1"
+			(uuid "e52b13c5-5c22-4ad7-9cba-cbcdf8d89ff3")
+		)
+		(pin "2"
+			(uuid "48e90d2a-47b5-4a66-b4f6-44b7d0ce6903")
+		)
+		(pin "8"
+			(uuid "e525c544-3eaf-488f-b381-1519a61e1d5a")
+		)
+		(pin "5"
+			(uuid "c302eb21-c4c9-4b7a-bfdb-9495a7ec3c90")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:SP40N03GNJ")
+		(at 130.81 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9dc6a10-56b3-4128-b9e0-2af0c56b0640")
+		(property "Reference" "Q11"
+			(at 130.81 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SP40N03GNJ"
+			(at 130.81 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22466709_POWERPAK-1212-8_L3_0-W3_0-P0_65-LS3_3-BL"
+			(at 130.81 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406171505_Siliup-SP40N03GNJ_C22466709.pdf"
+			(at 128.524 181.483 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SP40N03GNJ"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22466709"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Siliup(矽普)"
+			(at 130.81 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e307f00e-31b6-42cf-8f23-02c99c3947f6")
+		)
+		(pin "3"
+			(uuid "799597e2-3c34-45ba-b2bd-7e4ad4d39789")
+		)
+		(pin "6"
+			(uuid "a9c41936-6780-4b14-8ed4-c76a6bcdc032")
+		)
+		(pin "7"
+			(uuid "18eb198a-ff69-4003-b741-35c9efec1936")
+		)
+		(pin "1"
+			(uuid "e52b13c5-5c22-4ad7-9cba-cbcdf8d89ff3")
+		)
+		(pin "2"
+			(uuid "48e90d2a-47b5-4a66-b4f6-44b7d0ce6903")
+		)
+		(pin "8"
+			(uuid "e525c544-3eaf-488f-b381-1519a61e1d5a")
+		)
+		(pin "5"
+			(uuid "c302eb21-c4c9-4b7a-bfdb-9495a7ec3c90")
+		)
+		(instances
+			(project "3in1_ELRS_ESC"
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/53c59a9d-7a81-4709-8ace-fe79e2442e07"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/39290443-2f9c-4bc1-97f4-b32a472fedd9/7fd51403-965b-479e-85aa-14e533d0619a"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(group "FET - Bridge"
+		(uuid "85c9fc2f-81de-4cb6-afb2-ababdb94730e")
+		(members "4287f616-c60c-4161-8ffe-5b3adaefae62" "487a5da5-8c73-44b8-8f45-696f75e84cf9"
+			"803940c6-fc74-4f94-9463-5c23e8082b2a" "d53a0392-01c4-419e-8e4b-56e4f6060e45"
+			"d8f45f1b-47a3-46df-9987-5ff606e07901" "d9dc6a10-56b3-4128-b9e0-2af0c56b0640"
+		)
+	)
+)
