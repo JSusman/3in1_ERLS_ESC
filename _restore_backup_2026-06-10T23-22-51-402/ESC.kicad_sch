@@ -11201,6 +11201,14 @@
 			"da788512-030f-49c1-893d-22355b60d8cb" "ed1f36eb-8a14-4552-a61e-fa999926e633"
 		)
 	)
+	(group "ESC - Motor 1"
+		(uuid "7bfafb91-d1f0-4de9-b990-d0ec829db523")
+		(members "041b5b60-faf0-45be-99f2-287099eef0e6" "1c06f531-be92-403e-810a-d20da0c681fd"
+			"53c59a9d-7a81-4709-8ace-fe79e2442e07" "793207a4-c847-4e32-bc60-5bbac40c8a9a"
+			"803e5dde-920e-42fb-afa4-bab449c433ec" "c77f634d-b093-4d47-b1be-5f64ef92a4de"
+			"d1d836c4-e0a2-4940-8219-86252cecb5f3"
+		)
+	)
 	(group "Bootstrap "
 		(uuid "9e127106-2071-4145-8bf7-df7ab3333c8f")
 		(members "0667a402-d261-4d72-9bb7-ce4ed9894c68" "09b3ba46-2c76-41b1-9de6-317fe0e1c5d6"
