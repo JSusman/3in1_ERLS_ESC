@@ -3660,7 +3660,7 @@
 		)
 		(uuid "16ed6c9b-f3eb-44db-898f-54aa5ae08aba")
 	)
-	(label "GHA"
+	(label "GHA_1"
 		(at 165.1 72.39 0)
 		(effects
 			(font
@@ -3670,23 +3670,23 @@
 		)
 		(uuid "1a796016-0d03-4fd2-b91a-5f4fefc8f41b")
 	)
-	(label "GLB"
-		(at 80.01 173.99 0)
+	(label "GLB_1"
+		(at 80.01 173.99 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1c14776d-54fa-4aa4-84ff-83fcf02ac64e")
 	)
-	(label "GLC"
-		(at 114.3 173.99 0)
+	(label "GLC_1"
+		(at 114.3 173.99 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "210c4b2c-b7b5-4afb-bbe1-82244aa57942")
 	)
@@ -3759,6 +3759,16 @@
 			(justify left bottom)
 		)
 		(uuid "31ff2309-a4c1-4c2e-8783-2e3bfb3ee049")
+	)
+	(label "GHC_2"
+		(at 128.27 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36954112-27b1-4dd2-97e6-75232cb6b7e2")
 	)
 	(label "FBA"
 		(at 194.31 128.27 90)
@@ -3850,6 +3860,16 @@
 		)
 		(uuid "46cc927b-ad20-4eda-92ad-c57dd4b44f8c")
 	)
+	(label "GLA_2"
+		(at 59.69 173.99 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47e6e984-ce4d-46e0-a894-d0e553476655")
+	)
 	(label "AH"
 		(at 165.1 64.77 0)
 		(effects
@@ -3860,13 +3880,13 @@
 		)
 		(uuid "491699c3-3fbe-4085-b21e-c20d7305349a")
 	)
-	(label "GHC"
-		(at 114.3 142.24 0)
+	(label "GHC_1"
+		(at 114.3 142.24 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "49b0d9c5-4ac3-46b4-bb94-38195561a559")
 	)
@@ -3900,13 +3920,13 @@
 		)
 		(uuid "55b6f53e-e4b6-47ab-b66a-5b4090a66d34")
 	)
-	(label "GLC"
-		(at 138.43 80.01 0)
+	(label "GLC_1"
+		(at 138.43 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "55c33c48-f8a8-477a-a3d3-44d53a0832e9")
 	)
@@ -3980,6 +4000,16 @@
 		)
 		(uuid "6d163db3-99dd-44bd-a0b5-38aa98593ffa")
 	)
+	(label "GHA_2"
+		(at 59.69 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "747ea47e-47fb-4e88-b82a-7ad48767fd8e")
+	)
 	(label "AL"
 		(at 139.7 59.69 0)
 		(effects
@@ -3989,6 +4019,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ae53d48-bf8f-4c66-b2cb-a4fa92bc7464")
+	)
+	(label "GLC_2"
+		(at 128.27 173.99 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f96b949-5d7d-4ae4-9708-a84871d500f6")
 	)
 	(label "VB2"
 		(at 237.49 71.12 0)
@@ -4010,13 +4050,13 @@
 		)
 		(uuid "8af568dd-3ead-4e40-b6f7-1cfa2bcfee66")
 	)
-	(label "GLA"
-		(at 138.43 85.09 0)
+	(label "GLA_1"
+		(at 138.43 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8c4892c8-6594-4b74-96ea-41238b0e0157")
 	)
@@ -4180,13 +4220,13 @@
 		)
 		(uuid "bf74a00b-93f4-4246-b85b-20a44ff0335a")
 	)
-	(label "GHA"
-		(at 45.72 142.24 0)
+	(label "GHA_1"
+		(at 45.72 142.24 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c05e6ac1-b7e8-4a35-b556-e9009fd8f97d")
 	)
@@ -4230,23 +4270,23 @@
 		)
 		(uuid "cc82311d-8cf8-4ec2-a44c-f9ad81f29a0c")
 	)
-	(label "GLB"
-		(at 138.43 82.55 0)
+	(label "GLB_1"
+		(at 138.43 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cca43daf-38dd-4d52-84f2-9f130eb0792e")
 	)
-	(label "GHB"
-		(at 80.01 142.24 0)
+	(label "GHB_1"
+		(at 80.01 142.24 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cfe3d2f2-e0f5-4a7c-b663-e789cfccc89d")
 	)
@@ -4260,6 +4300,16 @@
 		)
 		(uuid "d043cc38-ae9a-4eff-854e-bdc2cd8984d6")
 	)
+	(label "GHB_2"
+		(at 93.98 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d11460aa-a565-4fc5-99cb-b484b69dd28d")
+	)
 	(label "BL"
 		(at 99.06 92.71 0)
 		(effects
@@ -4270,7 +4320,7 @@
 		)
 		(uuid "d4d1671f-f534-4e19-943d-ca13ba83df68")
 	)
-	(label "GHC"
+	(label "GHC_1"
 		(at 165.1 87.63 0)
 		(effects
 			(font
@@ -4280,13 +4330,13 @@
 		)
 		(uuid "d6ca2d74-defd-4ad1-a9a5-9daac6d557ed")
 	)
-	(label "GLA"
-		(at 45.72 173.99 0)
+	(label "GLA_1"
+		(at 45.72 173.99 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e3952114-df84-44be-9d15-8868ad73b842")
 	)
@@ -4350,6 +4400,16 @@
 		)
 		(uuid "f7c3e280-8b01-44d7-af05-323c09936070")
 	)
+	(label "GLB_2"
+		(at 93.98 173.99 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa05d54d-fe14-4402-a9da-3154b8377b48")
+	)
 	(label "FBC"
 		(at 86.36 90.17 270)
 		(effects
@@ -4360,7 +4420,7 @@
 		)
 		(uuid "fa711d2e-d4b3-45af-86b6-f10cc87fd9dd")
 	)
-	(label "GHB"
+	(label "GHB_1"
 		(at 165.1 80.01 0)
 		(effects
 			(font
@@ -11132,27 +11192,29 @@
 		(members "0644809a-2e5a-4468-8ae5-c20835860ac4" "116862c2-4c74-42ce-a65b-f42eb1a57cfe"
 			"1c14776d-54fa-4aa4-84ff-83fcf02ac64e" "210c4b2c-b7b5-4afb-bbe1-82244aa57942"
 			"27cea6e2-2570-4949-9870-0f26b9f5d113" "3268536a-697a-4589-8e00-d5d9a1d8763a"
-			"38457fb1-0ff9-4de8-a083-952f6d379ee4" "3d57b5e3-a519-4e89-bfc9-aca66393932d"
-			"3d642506-5e34-4f78-abf9-6bbe0df9d44a" "4287f616-c60c-4161-8ffe-5b3adaefae62"
-			"42a3c5e0-11d9-48bc-ab2c-355af146de52" "44f587eb-cdb4-48d7-8a8e-5d6540035753"
-			"476601b6-6a31-41f0-bb64-556e45b247a2" "47b402bb-c529-445d-9f8b-2fe4d615a12a"
+			"36954112-27b1-4dd2-97e6-75232cb6b7e2" "38457fb1-0ff9-4de8-a083-952f6d379ee4"
+			"3d57b5e3-a519-4e89-bfc9-aca66393932d" "3d642506-5e34-4f78-abf9-6bbe0df9d44a"
+			"4287f616-c60c-4161-8ffe-5b3adaefae62" "42a3c5e0-11d9-48bc-ab2c-355af146de52"
+			"44f587eb-cdb4-48d7-8a8e-5d6540035753" "476601b6-6a31-41f0-bb64-556e45b247a2"
+			"47b402bb-c529-445d-9f8b-2fe4d615a12a" "47e6e984-ce4d-46e0-a894-d0e553476655"
 			"487a5da5-8c73-44b8-8f45-696f75e84cf9" "49b0d9c5-4ac3-46b4-bb94-38195561a559"
 			"5554c18c-10f2-4202-acad-f666eb1a5199" "5f31c9c9-b1e9-4680-84a3-119836e01bfc"
 			"5fcad6f8-1b9e-4d17-a458-f0784ba67ec4" "67af40ec-3bab-4592-a3e5-ac221aeb367f"
 			"72e5c91c-10db-4c17-9aef-84775fb6c08d" "7a246360-7290-4fe9-9eb2-15f22cad05be"
 			"7ae9f1e9-7f2b-4db9-945a-7c243a2aac7c" "7d352e53-bc24-4e10-abfd-73a72e83d091"
-			"803940c6-fc74-4f94-9463-5c23e8082b2a" "80f2d08f-06d7-4e3d-bd34-e546499f1dcb"
-			"82ffd04d-b5d0-40b6-9acd-fe4808f3e225" "906044e8-c01b-45c3-844a-a2f38e330789"
-			"945f3a50-4e10-4ec5-8775-af5ddea6a727" "9500aeae-4a64-4b7a-86a5-6e5b1bf2d8bc"
-			"99e4186a-ded1-4604-b321-c1003a2baaac" "a158936a-291b-4b25-a165-72cfeba2b03c"
-			"a591c4a8-e155-435d-9658-801c9c3ff225" "a691ff35-da9b-4e22-aadf-609c77c3c681"
-			"ab840be0-ba91-430c-b9b2-94033cfbcc96" "b4d92cda-68fc-45f7-9d44-45b7c9baf693"
-			"c05e6ac1-b7e8-4a35-b556-e9009fd8f97d" "c57e1221-b862-4a6b-8167-c85fcd5474f8"
-			"c81988a6-7ba5-4278-bd84-27276524d889" "c84fc5c8-be61-4489-a190-1e0c579690de"
-			"ccb08951-9161-4b2f-94ab-ecc8dbba297b" "cd11e566-cc81-4209-b1b9-2a994aa52d3f"
-			"cfe3d2f2-e0f5-4a7c-b663-e789cfccc89d" "d53a0392-01c4-419e-8e4b-56e4f6060e45"
+			"7f96b949-5d7d-4ae4-9708-a84871d500f6" "803940c6-fc74-4f94-9463-5c23e8082b2a"
+			"80f2d08f-06d7-4e3d-bd34-e546499f1dcb" "82ffd04d-b5d0-40b6-9acd-fe4808f3e225"
+			"906044e8-c01b-45c3-844a-a2f38e330789" "945f3a50-4e10-4ec5-8775-af5ddea6a727"
+			"9500aeae-4a64-4b7a-86a5-6e5b1bf2d8bc" "99e4186a-ded1-4604-b321-c1003a2baaac"
+			"a158936a-291b-4b25-a165-72cfeba2b03c" "a591c4a8-e155-435d-9658-801c9c3ff225"
+			"a691ff35-da9b-4e22-aadf-609c77c3c681" "ab840be0-ba91-430c-b9b2-94033cfbcc96"
+			"b4d92cda-68fc-45f7-9d44-45b7c9baf693" "c05e6ac1-b7e8-4a35-b556-e9009fd8f97d"
+			"c57e1221-b862-4a6b-8167-c85fcd5474f8" "c81988a6-7ba5-4278-bd84-27276524d889"
+			"c84fc5c8-be61-4489-a190-1e0c579690de" "ccb08951-9161-4b2f-94ab-ecc8dbba297b"
+			"cd11e566-cc81-4209-b1b9-2a994aa52d3f" "cfe3d2f2-e0f5-4a7c-b663-e789cfccc89d"
+			"d11460aa-a565-4fc5-99cb-b484b69dd28d" "d53a0392-01c4-419e-8e4b-56e4f6060e45"
 			"d8f45f1b-47a3-46df-9987-5ff606e07901" "d9dc6a10-56b3-4128-b9e0-2af0c56b0640"
-			"e3952114-df84-44be-9d15-8868ad73b842"
+			"e3952114-df84-44be-9d15-8868ad73b842" "fa05d54d-fe14-4402-a9da-3154b8377b48"
 		)
 	)
 	(group "Decoupling Caps"
